@@ -1,0 +1,45 @@
+:root {
+    --bg-soft: #f4f8ff;
+    --card-bg: #ffffff;
+    --text-main: #1e2a3b;
+    --text-muted: #5b6880;
+    --brand: #0d6efd;
+    --brand-dark: #0b55c4;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(160deg, #eef4ff 0%, #f7fbff 55%, #f2f8ff 100%);
+    color: var(--text-main);
+}
+
+.app-shell {
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 1rem;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.btn-primary {
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-primary:hover {
+    background-color: var(--brand-dark);
+    border-color: var(--brand-dark);
+}
+
+.result-pill {
+    border: 1px solid #d5e4ff;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    background-color: var(--bg-soft);
+    text-align: center;
+}
